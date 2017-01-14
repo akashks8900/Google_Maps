@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+
+</head>
+<link rel="stylesheet" type="text/css" href="new9.css">
+<script type='text/javascript' src="new8.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=google_maps" async defer></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<body> 
+ 
+<input id="searchInput" class="controls" type="text" placeholder="Enter a location">
+<input id="latlng" class="controls" type="text" placeholder="Enter a lat , lng" >
+<button id="submit" type="button" class="btn btn-info glyphicon glyphicon-search">submit</button>
+<div class="fluid-container" id="map"></div>
+<ul id="geoData"> 
+    <div class="alert alert-success"><kbd>Full Address</kbd> <span id="location"></span></div>
+    <div class="alert alert-success"><kbd>Postal Code </kbd> <span id="postal_code"></span></div>
+    <div class="alert alert-success"><kbd>Country</kbd> <span id="country"></span></div>
+    <div class="alert alert-success"><kbd>Latitude </kbd> <span id="lat"></span></div>
+    <div class="alert alert-success"><kbd>Longitude</kbd> <span id="lon"></span></div>    
+</ul>
+
+
+</body>
+</html>
